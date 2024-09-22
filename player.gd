@@ -4,6 +4,7 @@ signal hit
 var screen_size
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
+	hide()
 	screen_size = get_viewport_rect()
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
